@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Georgia", "Times New Roman", serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 15px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    color: grey;
+}
+
+.navbar button{
+    border-radius: 20px;
+    padding: 10px;
+    background: #000;
+    color: white;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.main-heading {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+
+main p {
+    color: grey;
+    margin-top: 28px;   
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+.btn1 {
+    background: rgb(53, 53, 53);
+    color: white;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn2 {
+    background: rgb(249, 249, 249);
+    color: rgb(69, 69, 69);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid grey;
+}
+
+.logo-names{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 20px;
+}
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: grey;
+}
